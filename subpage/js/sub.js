@@ -1,5 +1,5 @@
 
-
+//비회원 인증번호 난수생성
 document.addEventListener('DOMContentLoaded', function () {
    
     const numBox = document.querySelector('#hp5')
@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
         numBox.appendChild(randomTxt);
 
     })
-
 
     const hp4Btn = document.getElementById('hp4_btn');
     const hp4Value = document.getElementById('hp4')
@@ -37,8 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    // const myId = 'woojin'
-    // const myPw = 'woojin123'
+
+
+ 
 
     const userId = document.getElementById('name')
     const userPw = document.getElementById('passwd')
@@ -66,9 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (errcnt >= 5) {
             loginPopup3.style.display = 'block'
         }
-
-
-
 
     })
 
